@@ -55,7 +55,7 @@
                     "type": "deleteFile",
                     "file": "sdmc:/WWDIY.cia"
                 }
-            ],
+            ]
         }
     ]
 }
