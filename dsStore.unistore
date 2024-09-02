@@ -3,14 +3,14 @@
         "title": "dsStore",
         "author": "cxnzy09",
         "description": "Download DS Games right to your home screen!",
-        "url": "https://raw.githubusercontent.com/gvalue-04/dsStore/main/dsStore.unistore"
+        "url": "https://raw.githubusercontent.com/gvalue-04/dsStore/main/dsStore.unistore",
         "file": "dsStore.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 1,
-        "version": 1
+        "revision": 2,
+        "version": 3
     },
     "storeContent": [
         {
@@ -25,7 +25,7 @@
                 "last_updated": "2024",
                 "license": "none",
                 "version": "v1.0"
-            }
+            },
             "Install Game": [
                 {
                     "type": "downloadFile",
