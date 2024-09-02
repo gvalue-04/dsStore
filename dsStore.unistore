@@ -3,9 +3,9 @@
         "title": "dsStore",
         "author": "cxnzy09",
         "description": "Download DS Games right to your home screen!",
-        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "url": "https://raw.githubusercontent.com/gvalue-04/dsStore/main/dsStore.unistore"
         "file": "dsStore.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheetURL": "https://no.com",
         "sheet": "dsStore.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
