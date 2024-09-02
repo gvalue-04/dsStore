@@ -1,0 +1,61 @@
+{
+    "storeInfo": {
+        "title": "dsStore",
+        "author": "cxnzy09",
+        "description": "Download DS Games right to your home screen!",
+        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "file": "dsStore.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "dsStore.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 1,
+        "version": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "WarioWare: D.I.Y",
+                "author": "Nintendo",
+                "description": "Create your own microgames, music, and comics!",
+                "category": ["game"],
+                "console": ["DS"],
+                "icon_index": -1,
+                "sheet_index": 0,
+                "last_updated": "2024",
+                "license": "none",
+                "version": "v1.0"
+            }
+            "Install Game": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://files.catbox.moe/edntsx.zip",
+                    "output": "sdmc:/WWDIY.zip"
+                },
+                {
+                  "type": "extractFile",
+                  "file": "/WWDIY.zip",
+                  "input": "WarioWare - D.I.Y. (USA).nds",
+                  "output": "/TWLFOLDER/"
+                }, 
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/WWDIY.zip"
+                },
+                {
+                    "type": "downloadFile",
+                    "file": "https://files.catbox.moe/agmw7b.cia",
+                    "output": "sdmc:/WWDIY.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "sdmc:/WWDIY.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/WWDIY.cia"
+                }
+            ],
+        }
+    ]
+}
