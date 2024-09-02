@@ -36,7 +36,7 @@
                   "type": "extractFile",
                   "file": "/WWDIY.zip",
                   "input": "WarioWare - D.I.Y. (USA).nds",
-                  "output": "/TWLFOLDER/"
+                  "output": "/TWLFOLDER/WarioWare DIY.nds/"
                 }, 
                 {
                     "type": "deleteFile",
